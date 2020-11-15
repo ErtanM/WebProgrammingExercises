@@ -1,0 +1,18 @@
+#slider{
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#slider.slide{
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
+.slide1{background-color: red;}
+.slide2{background-color:blue;}
+.slide3{background-color: green;}
+.slide4{background-color: purple;}
+.slide5{background-color: pink;}
