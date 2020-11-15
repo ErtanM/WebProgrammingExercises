@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'CaviarDreams';
+      src: url('fonts/CaviarDreams.eot'); /* IE9 Compat Modes */
+      src: url('fonts/CaviarDreams.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('fonts/CaviarDreams.woff2') format('woff2'), /* Super Modern Browsers */
+          url('fonts/CaviarDreams.woff') format('woff'), /* Pretty Modern Browsers */
+          url('fonts/CaviarDreams.ttf')  format('truetype'), /* Safari, Android, iOS */
+          url('fonts/CaviarDreams.svg#svgFontName') format('svg'); /* Legacy iOS */
+      font-weight: 400;
+      font-style: normal;
+  }
+  
+  body{
+      background-image: url(cool-background.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+
+  .dreams{
+        font-family: 'Courier New', Courier, monospace;
+  }
+
+  .answer{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  
+
+  .theanswer
+  {
+      border-radius: 50%;
+      letter-spacing: 10px;
+      color: black;
+  }
+
+  /*Transition part*/
+  .fade
+  {
+      opacity: 0.5;
+  }
+
+  .fade:hover{
+        opacity: 1;
+        background:#53a7ea;
+  }
+  /* TODO : bu dosyalari bulup indirmen gerekiyor, ondan sonra calisacaklar.*/
